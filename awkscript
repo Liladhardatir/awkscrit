@@ -1,0 +1,17 @@
+how to schedule following script 
+
+$vi test.sh
+
+#beg
+
+#!/bin/bash
+
+	echo "Hello World" >>/home/demo/mylog.txt
+
+	date  >>/home/demo/mylog.txt
+
+#end
+
+
+permission    chmod 766 test.sh
+
